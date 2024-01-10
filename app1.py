@@ -95,6 +95,7 @@ def login_page():
 
 # Main Streamlit app
 def main():
+    st.empty()
     if 'user_info' not in st.session_state:
         login_page()
     else:
