@@ -1,4 +1,4 @@
-streamlit==1.29.0
+streamlit==1.31.1
 requests==2.31.0
 txtai==6.3.0
 PyPDF2==3.0.1
