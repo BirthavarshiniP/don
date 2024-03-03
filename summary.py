@@ -14,6 +14,7 @@ import auth_functions
 # Download NLTK resources
 nltk.download('vader_lexicon')
 nltk.download('wordnet')
+nltk.download('punkt')
 
 # Load the sentiment analysis pipeline
 sia = SentimentIntensityAnalyzer()
