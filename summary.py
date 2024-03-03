@@ -15,6 +15,11 @@ import auth_functions
 nltk.download('vader_lexicon')
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('sent_tokenize')
+nltk.download('word_tokenize')
+nltk.download('FreqDist')
+nltk.download('SentimentIntensityAnalyzer')
 
 # Load the sentiment analysis pipeline
 sia = SentimentIntensityAnalyzer()
