@@ -4,3 +4,6 @@ txtai==6.3.0
 PyPDF2==3.0.1
 transformers==4.36.2
 sentencepiece==0.1.99
+bs4==0.0.2
+nltk==3.5
+beautifulsoup4==4.12.3
